@@ -1,24 +1,25 @@
 # using function
 
-a=int(input("enter a number:"))
-b=110
+
+#read the values
 
 
+#difinition addition
 
+def add (a,b):
+	return(a+b)
 
+#definition substraction
 
-
-
-
-def addition():
-	return a+b
-
-
-def addition():
-	print("substraction=" ,a-b)
+def sub(a,b):
+	print("substraction=",a+b)
 	return
 
+
 print("addition=")
-x=add()
-print(x)
-sub()
+r=add (113,234)#calling addition()function
+print(r)#printing added values
+
+x=541
+y=654
+sub(x,y)
